@@ -34,19 +34,11 @@ class Person
   end
 
   def happy?
-    if @happiness > 7
-      true
-    else
-      false
-    end
+    self.happiness > 7? true : false
   end
 
   def clean?
-    if @hygiene > 7
-      true
-    else
-      false
-    end
+    self.hygiene > 7? true : false
   end
 
   def get_paid(salary)
